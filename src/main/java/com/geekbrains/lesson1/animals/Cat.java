@@ -9,4 +9,13 @@ public class Cat extends Animal {
     public void voice() {
         System.out.println(name + " мяу");
     }
+
+    public  void  catMethod() {
+        System.out.println("catMethod");
+    }
+
+    @Override
+    public String toString() {
+        return "CAT [" + name + " " + color + " " + age + "]";
+    }
 }
